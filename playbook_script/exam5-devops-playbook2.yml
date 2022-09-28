@@ -9,5 +9,3 @@
 
   - name: create a container using cicd-project-ansible image
     command: docker run -d --name my_cicd_project -p 8080:8080 cicd-project-ansible
-
-

@@ -5,7 +5,7 @@
  
   tasks: 
   - name: delete the previous deployment
-    command: kubectl delete deployment.apps/cicd-deployment
+    command: /usr/local/bin/kubectl delete deployment.apps/cicd-deployment
 
   - name: create a deployment
-    command: kubectl apply -f cicd-devops-deployment.yml
+    command: /usr/local/bin/kubectl apply -f /Users/freelife/dev_inflearn/jenkins_cicd_script/k8s_script/cicd-devops-deployment.yml
